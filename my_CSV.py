@@ -42,9 +42,9 @@ import csv
 """
 
 # Створюєм файл з іншим розділювачем ';'
-with open('test.csv', mode='w') as csv_file:
-    writer = csv.writer(csv_file, delimiter=';')
-    writer.writerow(['user_id', 'user_name', 'comments_qty'])
-    writer.writerow([5235, 'Vasa', 1234])
-    writer.writerow([5236, 'Dima', 34])
-    writer.writerow([5237, 'Moly', 23])
+# with open('test.csv', mode='w') as csv_file:
+#     writer = csv.writer(csv_file, delimiter=';')
+#     writer.writerow(['user_id', 'user_name', 'comments_qty'])
+#     writer.writerow([5235, 'Vasa', 1234])
+#     writer.writerow([5236, 'Dima', 34])
+#     writer.writerow([5237, 'Moly', 23])
