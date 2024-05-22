@@ -39,7 +39,7 @@ print(f"len {len(my_cat)}")  # 1
 print(f"len {len(my_new_cat)}")  # 0
 # print(f"my_new_cat {my_new_cat['name']}")  # KeyError: 'name'
 print(f"get {my_new_cat.get('name')}")  # None
-print(f"get {my_new_cat.get('name', 'Michelb')}")  # Michelb
+print(f"get {my_new_cat.get('name', 'Michelb')}")  # Michelb - повертає значення за замовчуванням
 
 my_disk = {'price': 10_000, 'model': 'Galaxy'}
 my_disk['brand'] = 'Samsung'
